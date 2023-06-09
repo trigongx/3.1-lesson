@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:orientation="vertical"
+    android:gravity="top"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+    <EditText
+        android:gravity="center"
+        android:id="@+id/et_email"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="@string/type_gmail"
+        android:textColorHint="@color/grey"
+        android:layout_marginHorizontal="10dp"
+        android:layout_marginTop="32dp"
+        android:background="@drawable/bg_edittext"
+        android:drawableLeft="@drawable/ic_email"
+        android:drawableTint="@color/grey"/>
+
+    <EditText
+        android:gravity="center"
+        android:id="@+id/et_subject"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="@string/type_theme"
+        android:textColorHint="@color/grey"
+        android:layout_marginHorizontal="10dp"
+        android:layout_marginTop="12dp"
+        android:background="@drawable/bg_edittext"
+        android:drawableLeft="@drawable/ic_theme"
+        android:drawableTint="@color/grey"/>
+
+    <EditText
+        android:gravity="center"
+        android:id="@+id/et_message"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="@string/type_message"
+        android:textColorHint="@color/grey"
+        android:layout_marginHorizontal="10dp"
+        android:layout_marginTop="12dp"
+        android:background="@drawable/bg_edittext"
+        android:drawableLeft="@drawable/ic_message"
+        android:drawableTint="@color/grey"/>
+
+    <Button
+        android:id="@+id/btn_send"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="52dp"
+        android:layout_marginHorizontal="10dp"
+        android:text="@string/send"
+        android:backgroundTint="@color/purple"
+        android:textColor="@color/white"
+        android:textSize="16sp"
+        android:padding="24dp"/>
+
+
+
+</LinearLayout>

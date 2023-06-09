@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">3.1-lesson</string>
+    <string name="type_gmail">Type gmail</string>
+    <string name="type_theme">Type theme</string>
+    <string name="type_message">Type message</string>
+    <string name="send">SEND</string>
+</resources>
